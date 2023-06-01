@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1></h1>
+    <input type="text" name="search_keyword_input" id="">
+    <button type="submit">Search</button>
+  </header>
+
+  <main>
+    <div class="pokemon-grid-view">
+      <div class="pokemon-item">
+        <h1>IMG</h1>
+        <span>1 - bulba </span>
+      </div>
+      <div class="pokemon-item">
+        <h1>IMG</h1>
+        <span>1 - bulba </span>
+      </div>
+    </div>
+
+    <div class="pokemon-detail-view">
+      <header class="pokemon-detail-header">
+        <h1>POKEMON FOUND</h1>
+        <button>BACK</button>
+      </header>
+
+      <section class="pokemon-detail-section">
+        <div>
+          <h3>name: bulba</h3>
+          <h3>number: 001</h3>
+          <h3>types: grass / poison</h3>
+          <div>
+            <h3>Base Stats:</h3>
+            <div>
+              <h3>hp: 45</h3>
+              <h3>Att: 45</h3>
+
+              <h3>def: 45</h3>
+              <h3>sp att: 45</h3>
+              
+              <h3>sp def: 45</h3>
+              <h3>speeeeed: 45</h3>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png" alt="">
+          
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png" alt="">
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
